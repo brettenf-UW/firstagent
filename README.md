@@ -2,6 +2,8 @@
 
 Welcome to the CrewAI Debate Framework, a specialized multi-agent system powered by [crewAI](https://crewai.com). This project enables AI agents to present contrasting perspectives on a topic and synthesize insights from opposing viewpoints.
 
+🎥 CrewAI Debate Agents.mp4
+
 ## Installation
 
 Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management.

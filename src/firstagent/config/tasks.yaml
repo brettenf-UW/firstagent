@@ -1,0 +1,34 @@
+proponent_task:
+  description: >
+    Research and present the strongest arguments in favor of {topic}.
+    Focus on benefits, opportunities, and evidence supporting {topic} in {current_year}.
+    Anticipate potential criticisms and prepare rebuttals.
+  expected_output: >
+    A comprehensive position statement with 5 key pro-arguments including supporting evidence,
+    potential benefits, success cases, and rebuttals to common criticisms.
+    Format as clear, persuasive bullet points.
+  agent: proponent
+
+opponent_task:
+  description: >
+    Research and present thoughtful counterarguments regarding {topic}.
+    Identify potential risks, limitations, ethical concerns, or unintended consequences
+    relevant to {current_year}. Be balanced but critical in your analysis.
+  expected_output: >
+    A comprehensive critique with 5 key counter-arguments including supporting evidence,
+    potential risks, case studies of problems, and responses to common pro-arguments.
+    Format as clear, persuasive bullet points.
+  agent: opponent
+  
+debate_task:
+  description: >
+    Review both the pro and con arguments about {topic}. Facilitate a simulated debate
+    by evaluating the strongest points from each side. Identify areas of agreement,
+    key disagreements, and potential middle ground. Consider the context of {current_year}.
+  expected_output: >
+    A balanced debate summary with: (1) Key points of agreement, (2) Central disagreements,
+    (3) Evaluation of evidence quality on both sides, (4) Areas for further research,
+    and (5) Possible synthesis or middle-ground approaches. Format as a structured
+    markdown report with clear sections.
+  agent: moderator
+  dependencies: [proponent_task, opponent_task]

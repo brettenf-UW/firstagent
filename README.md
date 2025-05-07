@@ -2,6 +2,7 @@
 
 Welcome to the CrewAI Debate Framework, a specialized multi-agent system powered by [crewAI](https://crewai.com). This project enables AI agents to present contrasting perspectives on a topic and synthesize insights from opposing viewpoints.
 
+Watch Demo Below:
 🎥 [![Download CrewAI Debate Agents Video](https://img.shields.io/badge/Download-Video-blue)](https://github.com/brettenf-UW/firstagent/raw/main/CrewAI%20Debate%20Agents.mp4)
 
 ## Installation
